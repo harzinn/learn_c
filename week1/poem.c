@@ -6,8 +6,7 @@
 
 #include <stdio.h>
 
-int main(void)
-{
+int main(void)  {
     printf("Whose woods these are I think I know.\n");   
     printf("His house is in the village though\n");   
     printf("He will not see me stopping here\n");   
