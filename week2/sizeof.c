@@ -18,5 +18,7 @@ int main(void)
     printf("float is %lu bytes.\n", sizeof(float));
     printf("double is %lu bytes.\n", sizeof(average));
     printf("long double is %lu bytes.\n", sizeof(long double));
+    printf("short is %lu bytes.\n", sizeof(short));
+    printf("unsigned is %lu bytes.\n", sizeof(unsigned));
     return 0;
 }
