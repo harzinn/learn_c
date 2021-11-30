@@ -1,27 +1,27 @@
-/*  Love you how much
-    Demonstrate loop with while
-    Harzinn
-    Oct 31, 2021
-*/
+/*	Function variable practice
+ *	11/30/2021
+ *	Nick K
+ */
 
 #include <stdio.h>
 
-void wrt_very(int count)
-{
-    while(count > 0)
-    {
-        printf("\n very");
-        count--;
-    };
-    printf(" much.\n\n");
-}
+int compute_sum_to_n(int n);
 
 int main(void)
 {
-    int repeat = 0;
-    printf("How strong is you love  1-10 : ");
-    scanf("%d", &repeat);
-    printf("\nI love you very");
-    wrt_very(repeat);
-    return 0;
+	int a;
+	printf("\nValue to compute: ");
+	scanf("%d", &a);
+	printf("\n%d\n\n", compute_sum_to_n(a));
+	return 0;
+}
+
+int compute_sum_to_n(int n)
+{
+        int sum = 0;
+        for (; n>0; n--)
+        {
+                sum += n;
+        }
+        return sum;
 }
