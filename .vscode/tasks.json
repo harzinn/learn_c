@@ -11,7 +11,7 @@
 				"-Wall",
 				"${file}",
 				"-o",
-				"${fileDirname}/bin/${fileBasenameNoExtension}",
+				"${fileDirname}/bin/debug/${fileBasenameNoExtension}",
 				"-lm"
 			],
 			"options": {
